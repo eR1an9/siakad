@@ -20,7 +20,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-left">
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="?module=home">Dashboard</a></li>
             <li><a href="#">Settings</a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Help</a></li>
@@ -41,7 +41,8 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">MENU UTAMA <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
             <li><a href="#">Analytics</a></li>
             <li><a href="#">Export</a></li>
           </ul>
