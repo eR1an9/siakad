@@ -28,9 +28,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="?module=sigin"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
+          <form action="?module=cari_data" method="POST" class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
-            <button type="submit" class="btn btn-primary">cari</button>
+            <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
           </form>
         </div>
       </div>
